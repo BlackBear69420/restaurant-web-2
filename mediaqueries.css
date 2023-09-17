@@ -1,0 +1,183 @@
+
+@media screen and (max-width: 800px){
+    #reservation-form{
+        flex-direction: column;
+        width: 300px;
+        justify-content: space-evenly;
+        gap: 0;
+        padding: 0;
+        padding-top: 10px;
+        padding-bottom: 13px;
+    }
+    #reservation{
+        height: 110vh;
+    }
+    #reservation-form input[type="text"],
+    #reservation-form input[type="email"],
+    #reservation-form input[type="tel"],
+    #reservation-form input[type="date"],
+    #reservation-form input[type="time"],
+    #reservation-form input[type="number"],
+    #reservation-form textarea {
+        width: 90%;
+        padding: 7px;
+        margin-bottom: 10px;
+        border: 2px solid #000000;
+        border-radius: 5px;
+        margin-left: 1rem;
+        font-size: 12px;
+       
+    }
+    #reservation-form button {
+        background-color: #ffffff;
+        color: #000000;
+        border: none;
+        padding: 8px 15px;
+        font-size: 15px;
+        font-weight: 530;
+        cursor: pointer;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+        margin-left: 3.3rem;
+        border: #fcfcfc solid 1px;
+    }
+    }
+    @media screen and (max-width: 360px){
+        #reservation-form {
+            background-color: #000000;
+            padding: 5px;
+            padding-top: 13px;
+            padding-bottom: 13px;
+            border-radius: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            width: 240px;
+            margin: 0 auto;
+            display: flex;
+            gap: 3rem;
+            border: 2px solid #ffffff; /* Add this line to set the border */
+            border-radius: 10px;
+            gap: 0; /* Optional: Add border radius */
+            
+        }
+        #reservation-form label {
+            font-size: 15px;
+            display: block;
+            margin-bottom: 5px;
+            margin-left: 1rem;
+            color: white;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        #reservation-form input[type="text"],
+        #reservation-form input[type="email"],
+        #reservation-form input[type="tel"],
+        #reservation-form input[type="date"],
+        #reservation-form input[type="time"],
+        #reservation-form input[type="number"],
+        #reservation-form textarea {
+            width: 85%;
+            padding: 7px;
+            margin-bottom: 10px;
+            border: 2px solid #000000;
+            border-radius: 5px;
+            margin-left: 0.75rem;
+            font-size: 13px;
+           
+        }
+        #reservation-form button {
+            padding: 8px 15px;
+            font-size: 13px;
+            margin-left: 15%;
+        }
+        .footer-text{
+            font-size: 12px;
+        }
+    }
+
+    @media only screen and (max-width: 768px) {
+        .nav-menu {
+            position: fixed;
+            left: -100%;
+            top: 4.6rem;
+            flex-direction: column;
+            background-color: #fff;
+            width: 100%;
+            border-radius: 10px;
+            text-align: center;
+            transition: 0.3s;
+            box-shadow:0 10px 27px rgba(0, 0, 0, 0.05);
+            z-index: 1001;
+            height: 300px;    
+        }
+    
+        .nav-menu.active {
+            left: 0;
+            color: #000000;
+            
+        }
+    
+        .nav-item {
+            margin: 0.5rem 0;
+            
+        }
+    
+        .hamburger {
+            display: block;
+            cursor: pointer;
+        }
+    
+    }
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    @media (max-width: 1120px) {
+        .hero_area {
+          height: auto;
+        }
+      
+        .slider_section {
+          padding: 50px 0;
+        }
+      }
+      
+      @media (max-width: 768px) {
+        .slider_detail-box {
+          text-align: center;
+        }
+      
+        .slider_img-box {
+          margin: 25px 0 45px 0;
+        }
+      
+        .carousel-indicators {
+          bottom: -5%;
+        }
+      }
+      
+      @media (max-width: 480px) {
+        .slider_detail-box h1 {
+          font-size: 40px;
+        }
+      }
+    
+      
+      @media (max-width: 360px) {
+        .btn-box {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        }
+        .slider_detail-box .btn-box .btn-1 {
+          margin-bottom: 10px;
+          margin-right: 0;
+        }
+      }
+      
