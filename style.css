@@ -125,7 +125,7 @@ a {
   width: 100%;
   float: left;
   font-size: 50px;
-  color: #000;
+  color: #403e3e;
   font-weight: bold;
 }
 .banner_text {
@@ -185,6 +185,9 @@ p{
    width: 100%;
 }
 /*reservation form*/
+#Reservation{
+  margin-bottom: 0;
+}
 #reservation-form {
    
     padding: 20px;
@@ -273,12 +276,14 @@ input[type=submit]:hover {
 .container1 {
   border-radius: 5px;
   padding: 20px;
+  margin-bottom: 0;
 }
 
 /*gallery*/
 
 #gallery{
     border: #ffffff solid 3px;
+    
 }
 
 .galh{
@@ -646,8 +651,8 @@ padding-top: 1rem;
     
     .copyright {
         margin-top: 90px;
-        padding-top: 50px;
-        padding-bottom: 50px;
+        padding-top: 10px;
+        padding-bottom: 10px;
         background: #fefefd;
     }
     
@@ -691,86 +696,26 @@ padding-top: 1rem;
     .portfolio_page .footer {
         margin-top: 60px;
     }
-
-    .slider_section {
-      background-image: url(../images/hero.jpg);
-      padding: 6% 0;
-      background-size: cover;
-      background-repeat: no-repeat;
+    .image_1{
+      background-color: white;
+      align-items: center;
     }
-    
-    .slider_section .row {
-      -webkit-box-align: center;
-          -ms-flex-align: center;
-              align-items: center;
-    }
-    
-    .slider_detail-box h1 {
-      color: #ffffff;
-      font-size: 52px;
-    }
-    
-    .slider_detail-box h1 span {
-      display: inline-block;
-      color: #434242;
-      font-weight: bold;
-    }
-    
-    .slider_detail-box p {
-      color: #f6f8f7;
-      margin-top: 45px;
-      margin-bottom: 40px;
-    }
-    
-    .slider_detail-box .btn-box .btn-1 {
-      display: inline-block;
-      padding: 10px 45px;
-      background-color: #023b48;
-      border: 1px solid #023b48;
-      color: #ffffff;
-      margin-right: 10px;
-    }
-    
-    .slider_detail-box .btn-box .btn-1:hover {
-      background-color: transparent;
-      color: #023b48;
-    }
-    
-    .slider_detail-box .btn-box .btn-2 {
-      display: inline-block;
-      padding: 10px 45px;
-      background-color: #ffffff;
-      border: 1px solid #ffffff;
-      color: #023b48;
-    }
-    
-    .slider_detail-box .btn-box .btn-2:hover {
-      background-color: transparent;
-      color: #ffffff;
-    }
-    
-    .slider_img-box {
-      margin-right: 5%;
-    }
-    
-    .slider_img-box img {
-      width: 100%;
-    }
-    
-    .carousel-indicators {
-      bottom: -15%;
-    }
-    
-    .carousel-indicators li {
-      width: 20px;
-      height: 20px;
-      border-radius: 100%;
-      opacity: 1;
-    }
-    
-    .carousel-indicators .active {
-      background-color: #010106;
-    }
-    
+ .btnh{width: 8rem;
+  height: 2.5rem;
+  font-size: 1.2rem;
+  color: #ffffff;
+  background-color: #514e4e;
+  padding: 6px;
+  border-radius: 5px;
+  font-weight: 400;
+}
+.btnh:hover{
+  text-decoration: none;
+  color: #161515;
+  background-color: #fefefe;
+}
+.border1{
+  border: white solid 3px;
+}
 
     

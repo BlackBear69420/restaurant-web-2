@@ -9,6 +9,9 @@
         padding-top: 10px;
         padding-bottom: 13px;
     }
+    .btnh{
+      display: none;
+    }
   .hamburger{
     margin-right: 1rem;
   }
@@ -96,7 +99,7 @@
         }
     }
 
-    @media only screen and (max-width: 768px) {
+    @media only screen and (max-width:814px) {
         .nav-menu {
             position: fixed;
             left: -100%;
